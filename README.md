@@ -1,5 +1,7 @@
 ## Calculate spectral energy density or instantanious amplitude of seismic data (aka envelope)
 
+Functions in the `envelope.py` module were copied from [Qopen](https://github.com/trichter/qopen).
+
 ```py
 from obspy import read
 from envelope import envelope, smooth_trace, spectral_energy_density
